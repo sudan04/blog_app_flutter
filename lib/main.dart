@@ -1,8 +1,10 @@
 import 'package:blog_app/core/theme/app_theme.dart';
 import 'package:blog_app/features/auth/presentation/pages/signin_page.dart';
 import 'package:flutter/material.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
 
-void main() {
+void main() async {
+  Supabase.initialize(url: , anonKey: );
   runApp(const MyApp());
 }
 

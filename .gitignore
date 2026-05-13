@@ -32,6 +32,7 @@ migrate_working_dir/
 .pub/
 /build/
 /coverage/
+lib/core/secrets/supabase_secrets.dart
 
 # Symbolication related
 app.*.symbols
